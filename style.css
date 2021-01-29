@@ -1,11 +1,88 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: roboto;
   margin: 2em;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  color: #575757;
+  font-weight: bold;
+  font-size: 36.5px;
+}
+
+h2 {
+  color: #575757;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.logo {
+  text-align: center;
+  background: orange;
+}
+
+.navbar {
+  margin-left: 15%;
+  background: grey;
+  text-align: center;
+  width: 70%;
+}
+
+.search {
+  position: absolute;
+  right: 13%;
+  color: #575757;
+}
+
+.navnoicon {
+  color: #575757;
+  margin: 22px;
+  text-decoration: none;
+}
+
+.firstbox {
+  margin-left: 8.0%;
+  width: 84%;
+  height: 865px;
+  background: #7BF36E;
+  text-align:left;
+  box-shadow:0px 2px 2px #B6B6B6;
+}
+
+.firstinside {
+  margin-left: 2%;
+}
+
+p1 {
+  font-size: 21px;
+  color:#575757
+}
+
+p2 {
+  font-size: 17px;
+  color:#575757;
+}
+
+p3 {
+  color:#575757;
+}
+
+hr {
+  width: 81%;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 3px;
+  background-color: blue;
+}
+
+.secondbox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 82%;
+  background-color: red;
+}
+
+.secondtop {
+  justify-content: flex-end;
 }
