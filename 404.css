@@ -1,0 +1,177 @@
+html,
+body {
+  font-family: Roboto;
+  overflow-x: hidden;
+}
+
+hr {
+  margin: 30px -20px 20px;
+  border: 0;
+  border-top: 3px solid #ECECEC;
+}
+
+h1 {
+  margin-top: 3%;
+  margin-bottom: 12%;
+  color: #575757;
+  font-weight: 400;
+  font-size: 36.5px;
+}
+
+h2 {
+  color: #5F6368;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Roboto, Arial, sans-serif;
+}
+p1 {
+  margin-bottom: 6%;
+  font-size: 19px;
+  color: #575757;
+  line-height: 25.5px;
+}
+
+p2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #575757;
+}
+
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 81%;
+}
+.navbar {
+  transform: translate(-50px);
+  margin: auto;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #575757;
+}
+
+.navnoicon {
+  position: relative;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  color: #575757;
+  margin: 12px;
+  padding: 10px;
+  border-bottom: 30px;
+  text-decoration: none;
+}
+
+.navnoicon:hover {
+  border-bottom: 4px solid #B6B6B6;
+}
+
+.firstbox {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 81%;
+  height: auto;
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+  margin-top: 6%;
+}
+
+.footerinner {
+  width: 81%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.footerleft {
+  width: 65%;
+}
+
+.footerright {
+  display: flex;
+  margin-left: 45%;
+  flex-direction: row;
+
+  width: 50%;
+}
+
+.footerrightleftside {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+}
+
+.footerrightrightside {
+  display: flex;
+  margin-left: 15%;
+
+  flex-direction: column;
+}
+
+.footerlink {
+  font-family: Roboto, Arial, sans-serif;
+  text-decoration: none;
+  color: #575757;
+  font-size: 16px;
+  border-bottom: 30px;
+  margin-bottom: 4px;
+}
+
+.footerlink:hover {
+  text-decoration: underline;
+}
+
+.footerbtm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 81%;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 100%;
+  }
+
+  .footerinner {
+    flex-direction: column;
+  }
+  .footerleft {
+    width: 100%;
+  }
+  .footerright {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+
+/* if screen gets even smaller... */
+@media screen and (max-width: 500px) {
+  footer {
+    display:none;
+  }
+  
+  .footerhr {
+    display:none;
+  }
+}
