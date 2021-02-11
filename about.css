@@ -57,7 +57,7 @@ p3 {
 
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   width: 81%;
@@ -66,6 +66,16 @@ p3 {
   transform: translate(-50px);
   margin: auto;
   text-align: center;
+}
+
+.icon {
+   margin: auto;
+  margin-left: 0;
+    margin-right: 0;
+  text-align: center;
+  color:black;
+  font-size: 23px;
+  display: none;
 }
 
 .search {
@@ -173,8 +183,31 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    body {
+    width: 94%;
+  }
+  
+   h1,
+  h2,
+  h3
+  {
+    font-size: 19px;
+  }
+  
+  p1,
+  p2,
+  p3 {
+    font-size: 15px;
+  }
+  
+      .icon {
+    display:block;
+  }
+  .navbar {
+    display: none;
+  }
   .footer {
-    width: 96%;
+    width: 94%;
   }
 
   .footerinner {

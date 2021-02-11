@@ -71,7 +71,7 @@ p3 {
 
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   width: 81%;
@@ -82,6 +82,15 @@ p3 {
   text-align: center;
 }
 
+.icon {
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  display: none;
+}
 .search {
   display: flex;
   justify-content: flex-end;
@@ -397,12 +406,19 @@ footer {
 
 /*responsiveness*/
 @media screen and (max-width: 600px) {
-  
-    body {
+  body {
     width: 98%;
   }
+
   .footer {
     width: 100%;
+  }
+
+  .icon {
+    display: block;
+  }
+  .navbar {
+    display: none;
   }
 
   .footerinner {
@@ -425,6 +441,12 @@ footer {
   h3,
   h4 {
     font-size: 19px;
+  }
+
+  p1,
+  p2,
+  p3 {
+    font-size: 15px;
   }
 
   .secondbox {
@@ -494,14 +516,17 @@ footer {
   }
 }
 
-
 /* if screen gets even smaller... */
 @media screen and (max-width: 500px) {
-  footer {
-    display:none;
+  body {
+    width: 98%;
   }
-  
+
+  footer {
+    display: none;
+  }
+
   .footerhr {
-    display:none;
+    display: none;
   }
 }

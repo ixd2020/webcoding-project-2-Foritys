@@ -1,0 +1,585 @@
+html,
+body {
+  font-family: Roboto;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+hr {
+  margin: 30px -20px 20px;
+  border: 0;
+  border-top: 3px solid #ECECEC;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20%;
+  color: #575757;
+  font-weight: 400;
+  font-size: 36.5px;
+}
+
+h2 {
+  color: #5F6368;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+h3 {
+  color: #424242;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 2%;
+  margin-top: -10%;
+  line-height: 35.25px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 33px;
+  color: #424242;
+  font-weight: 300;
+}
+
+p1 {
+  margin-bottom: 6%;
+  font-size: 19px;
+  color: #575757;
+  line-height: 25.5px;
+}
+
+p2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #575757;
+}
+
+p3 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+p4 {
+  font-size: 19px;
+  line-height: 27px;
+  color: #414549;
+  font-weight: 300px;
+}
+
+p5 {
+  font-size: 24px;
+  line-height: 33px;
+  color: #424242;
+  font-weight: 300px;
+}
+
+p6 {
+  color: #575757;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+p7 {
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #575757;
+}
+
+p8 {
+  font-family: Roboto mono;
+  color: #5f6368;
+  font-size: 14px;
+}
+
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.activenav {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  color: #575757;
+  margin: 12px;
+  padding: 10px;
+  border-bottom: 30px;
+  border-bottom: 4px solid #319353;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 81%;
+}
+.navbar {
+  transform: translate(-50px);
+  margin: auto;
+  text-align: center;
+}
+
+.icon {
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  display: none;
+}
+.search {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #575757;
+}
+
+.navnoicon {
+  position: relative;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  color: #575757;
+  margin: 12px;
+  padding: 10px;
+  border-bottom: 30px;
+  text-decoration: none;
+}
+
+.navnoicon:hover {
+  border-bottom: 4px solid #B6B6B6;
+}
+
+.firstbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 81%;
+  height: auto;
+  text-align: left;
+}
+
+.leftbox {
+  width: 55%;
+  margin-top: 0;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightbox {
+  width: 100%;
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navdummy {
+  color: #1967D2;
+}
+
+/*2nd box*/
+.secondbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 0;
+  width: 81%;
+  height: auto;
+  text-align: left;
+}
+
+.secleftbox {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.secrightbox {
+  margin-top: 1%;
+  margin-left: 5%;
+  display: flex;
+  width: 30%;
+}
+
+.thirdbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 0;
+  width: 85%;
+  height: auto;
+  text-align: left;
+}
+
+.threeboxes {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 2.5%;
+}
+
+.threeboxes:hover {
+  box-shadow: 0px 2px 2px #B6B6B6;
+}
+
+.threeboxes1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 20%;
+  padding: 2.5%;
+}
+
+.threeboxes1:hover {
+  box-shadow: 0px 2px 2px #B6B6B6;
+}
+
+.threeboxes2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 20%;
+  padding: 2.5%;
+  margin-left: 2%;
+}
+
+.threeboxes2:hover {
+  box-shadow: 0px 2px 2px #B6B6B6;
+}
+
+.green {
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: auto;
+  height: 5px;
+  background-color: #319353;
+  border: none;
+}
+
+.authorrow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+.wordsauthor {
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.roundedsmall {
+  flex: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*rounded img*/
+.rounded {
+  display: flex;
+  width: 93%;
+  height: 93%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rounded1 {
+  display: flex;
+  margin-top: 9%;
+  width: 93%;
+  height: 70%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.fourthbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 0;
+  width: 81%;
+  height: auto;
+  text-align: left;
+}
+
+.fourthleftbox {
+  width: 64%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fifthbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 0;
+  width: 81%;
+  height: auto;
+  text-align: left;
+}
+
+.fifthleftbox {
+  width: 28%;
+  height: 50%;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sixthbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 0;
+  width: 81%;
+  height: auto;
+  text-align: left;
+}
+
+.seventhbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 0;
+  width: 81%;
+  height: auto;
+  text-align: left;
+}
+
+.seventhrightbox {
+  width: 64%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.eighthbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 0;
+  width: 81%;
+  height: auto;
+  text-align: left;
+}
+
+.eighthleftbox {
+  width: 28%;
+  height: 50%;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.ninthbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 0;
+  width: 81%;
+  height: auto;
+  text-align: left;
+}
+
+.tenthbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 0;
+  width: 81%;
+  height: auto;
+  text-align: left;
+}
+
+.tenthleftbox {
+  width: 64%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  width: 100%;
+  margin-top: 6%;
+}
+
+.footerinner {
+  width: 81%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.footerleft {
+  width: 65%;
+}
+
+.footerright {
+  display: flex;
+  margin-left: 45%;
+  flex-direction: row;
+
+  width: 50%;
+}
+
+.footerrightleftside {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+}
+
+.footerrightrightside {
+  display: flex;
+  margin-left: 15%;
+
+  flex-direction: column;
+}
+
+.footerlink {
+  font-family: Roboto, Arial, sans-serif;
+  text-decoration: none;
+  color: #575757;
+  font-size: 16px;
+  border-bottom: 30px;
+  margin-bottom: 4px;
+}
+
+.footerlink:hover {
+  text-decoration: underline;
+}
+
+.footerbtm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 81%;
+  margin: auto;
+}
+
+/*responsiveness*/
+@media screen and (max-width: 600px) {
+  body {
+    width: 98%;
+  }
+
+  p1,
+  p2,
+  p3,
+  p4,
+  p6,
+  p7,
+  p8 {
+    font-size: 15px;
+  }
+
+  h2,
+  h3,
+  h4 {
+    font-size: 19px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p5 {
+    font-size: 18px;
+  }
+
+  .firstbox,
+  .secondbox,
+  .thirdbox,
+  .fourthbox,
+  .fifthbox,
+  .sixthbox,
+  .seventhbox,
+  .eighthbox,
+  .ninthbox,
+  .tenthbox {
+    width: 96%;
+    flex-direction: column;
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .leftbox,
+  .rightbox,
+  .secleftbox,
+  .secrightbox,
+  .threeboxes,
+  .threeboxes1,
+  .threeboxes2,
+  .fourthleftbox,
+  .seventhrightbox,
+  .eighthleftbox,
+  .tenthleftbox {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .footerinner {
+    flex-direction: column;
+  }
+  .footerleft {
+    width: 100%;
+  }
+  .footerright {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+/* if screen gets even smaller... */
+@media screen and (max-width: 500px) {
+  .icon {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+
+  .footerhr {
+    display: none;
+  }
+}
